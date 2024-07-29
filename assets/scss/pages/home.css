@@ -174,4 +174,19 @@ button {
 }
 .l-cta button a {
   color: white;
+}
+
+.l-news {
+  width: 100%;
+  height: auto;
+  background-color: bisque;
+}
+.l-news-inner {
+  padding-top: 60px;
+  max-width: 600px;
+  text-align: center;
+}
+.l-news-box {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=home.css.map */

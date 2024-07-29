@@ -130,4 +130,19 @@
         }
     }
 }
+.l-news {
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    &-inner {
+        padding-top: 60px;
+        max-width: 600px;
+        text-align: center;
+    }
+    &-box {
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
