@@ -11,6 +11,13 @@ body, html {
 section {
     box-sizing: border-box;
 }
+h3 {
+    margin: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 ul, li {
     list-style-type: none;
     padding-inline-start: 0px;
@@ -21,6 +28,12 @@ a {
 img {
     max-width: 100%;
 }
+button {
+    border: none;
+}
+
+
+
 // section-inner
 .l-section-inner {
     margin: 0 auto;
@@ -29,4 +42,7 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     }
+}
+.p-section_ttl--pb32 {
+    padding-bottom: 32px;
 }

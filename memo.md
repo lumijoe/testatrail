@@ -894,3 +894,7 @@ $(".l-section").css("padding-top", headerHeight + "px");
     });
 
 });
+
+## button btn　のサイズ
+border-radius: 60px;
+が一番綺麗
