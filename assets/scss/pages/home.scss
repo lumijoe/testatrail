@@ -136,25 +136,30 @@
     background-color: bisque;
     &-inner {
         padding-top: 60px;
-        max-width: 600px;
+        min-width: 600px;
         text-align: center;
     }
     &-box {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-    }
-    .p-news_table {
-        tr {
+        max-width: 600px;
+
+        li {
             height: 52px;
-            border: 1px solid #585858;
-        }
-        th, td {
-            text-align: justify;
-            letter-spacing: 0.2rem;
-        }
-        th + td {
-            padding-left: 52px;
+            border-top: 1px solid red;
+            max-width: 600px;
+            margin: 0 auto;
+            time {
+                background-color: red;
+            }
+            span {
+            }
+            time + span {
+                padding-left: 52px;
+            }
         }
     }
+    
 }
 
