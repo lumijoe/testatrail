@@ -54,9 +54,13 @@
             }
 
         }
-        .l-gallery-box {
+        .l-gallery-section {
             margin: 38px auto;
             background-color: aquamarine;
+            &-inner {
+                max-width: 900px;
+            }
+            
             .l-gallery {
                 padding-left: 20px;
                 padding-right: 20px;
@@ -68,3 +72,4 @@
         }
     }
 }
+
