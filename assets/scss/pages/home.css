@@ -90,9 +90,26 @@ a {
 }
 .l-main-inner .l-gallery-section-inner {
   max-width: 900px;
+  gap: 20px;
 }
 .l-main-inner .l-gallery-section .l-gallery {
   max-width: 860px;
   height: auto;
   background-color: burlywood;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.l-main-inner .l-gallery-section .l-gallery img {
+  max-width: 100%;
+}
+.l-main-inner .l-gallery-section .l-gallery:nth-child(even) {
+  grid-template-columns: 1fr 1fr;
+}
+.l-main-inner .l-gallery-section .l-gallery:nth-child(even) img {
+  order: 2;
+}
+.l-main-inner .l-gallery-section .l-gallery:nth-child(even) p {
+  order: 1;
 }/*# sourceMappingURL=home.css.map */

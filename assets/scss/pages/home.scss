@@ -59,6 +59,7 @@
             background-color: aquamarine;
             &-inner {
                 max-width: 900px;
+                gap: 20px;
             }
             
             .l-gallery {
@@ -68,6 +69,24 @@
                 max-width: 860px;
                 height: auto;
                 background-color: burlywood;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+                img {
+                    max-width: 100%;
+                }
+                // 偶数のみ左右反転
+                &:nth-child(even) {
+                    grid-template-columns: 1fr 1fr;
+                    img {
+                        order: 2;
+                    }
+                    p {
+                        order: 1;
+                    }
+                }
+
             }
         }
     }
