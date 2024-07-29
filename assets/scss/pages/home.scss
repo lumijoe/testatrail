@@ -52,14 +52,12 @@
                 padding-bottom: 67px;
                 text-align: center;
             }
-
         }
         .l-gallery-section {
             margin: 38px auto;
             background-color: aquamarine;
             &-inner {
                 max-width: 900px;
-                gap: 20px;
             }
             
             .l-gallery {
@@ -70,6 +68,7 @@
                 height: auto;
                 background-color: burlywood;
                 display: grid;
+                justify-items: stretch;
                 gap: 20px;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: auto;
@@ -88,7 +87,32 @@
                 }
 
             }
+            ul li + li {
+                padding-top: 20px;
+            }
         }
+        .l-work-section {
+            width: 100%;
+            margin-top: 60px;
+            background-color: aqua;
+            &-inner {
+                max-width: 1100px;
+                text-align: center;
+            }
+        }
+        .l-work-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            text-align: justify;
+            .card_btn-wrapper {
+                display: flex;
+                justify-content:flex-end;
+            }
+
+        }
+
     }
 }
 

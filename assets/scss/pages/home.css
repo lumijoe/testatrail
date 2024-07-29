@@ -11,14 +11,20 @@ section {
 
 ul, li {
   list-style-type: none;
+  padding-inline-start: 0px;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .l-section-inner {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .l-section-inner-plf--20px {
   padding-left: 20px;
@@ -90,13 +96,13 @@ a {
 }
 .l-main-inner .l-gallery-section-inner {
   max-width: 900px;
-  gap: 20px;
 }
 .l-main-inner .l-gallery-section .l-gallery {
   max-width: 860px;
   height: auto;
   background-color: burlywood;
   display: grid;
+  justify-items: stretch;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -112,4 +118,27 @@ a {
 }
 .l-main-inner .l-gallery-section .l-gallery:nth-child(even) p {
   order: 1;
+}
+.l-main-inner .l-gallery-section ul li + li {
+  padding-top: 20px;
+}
+.l-main-inner .l-work-section {
+  width: 100%;
+  margin-top: 60px;
+  background-color: aqua;
+}
+.l-main-inner .l-work-section-inner {
+  max-width: 1100px;
+  text-align: center;
+}
+.l-main-inner .l-work-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  text-align: justify;
+}
+.l-main-inner .l-work-box .card_btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=home.css.map */
