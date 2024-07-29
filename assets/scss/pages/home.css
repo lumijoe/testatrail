@@ -189,4 +189,15 @@ button {
 .l-news-box {
   display: flex;
   justify-content: center;
+}
+.l-news .p-news_table tr {
+  height: 52px;
+  border: 1px solid #585858;
+}
+.l-news .p-news_table th, .l-news .p-news_table td {
+  text-align: justify;
+  letter-spacing: 0.2rem;
+}
+.l-news .p-news_table th + td {
+  padding-left: 52px;
 }/*# sourceMappingURL=home.css.map */

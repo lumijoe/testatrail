@@ -143,6 +143,18 @@
         display: flex;
         justify-content: center;
     }
-
+    .p-news_table {
+        tr {
+            height: 52px;
+            border: 1px solid #585858;
+        }
+        th, td {
+            text-align: justify;
+            letter-spacing: 0.2rem;
+        }
+        th + td {
+            padding-left: 52px;
+        }
+    }
 }
 
