@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package test_theme
+ * @package atrail_theme
  */
 /*****************************
  * ファイルの読み込み
