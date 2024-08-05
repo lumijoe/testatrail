@@ -62,17 +62,17 @@
         <section class="l-nav">
             <nav class="p-nav">
                 <ul>
-                    <li><a>事業案内</a></li>
+                    <li><a href="/#service">事業案内</a></li>
                     <li><a href="/#work">施工事例</a></li>
-                    <li><a>会社概要</a></li>
-                    <li><a>お問い合わせ</a></li>
+                    <li><a href="/#company">会社概要</a></li>
+                    <li><a href="/#contact">お問い合わせ</a></li>
                 </ul>
             </nav>
         </section>
         <!----------------------------------
         catch
         ----------------------------------->
-        <section class="l-catchcopy">
+        <section class="l-catchcopy" id="service">
             <h3 class="p-catchcopy">（ダミー）コンテナハウスで理想の暮らしをかなえます</h3>
         </section>
         <!----------------------------------
@@ -162,7 +162,7 @@
         contact btn
         ----------------------------------->
         <section class="l-cta">
-            <button class="p-cta-btn"><a href="./">お問い合わせ→</a></button>
+            <button class="p-cta-btn"><a href="#contact">お問い合わせ→</a></button>
         </section>
         <!----------------------------------
         news
@@ -195,7 +195,7 @@
         <!----------------------------------
         company
         ----------------------------------->
-        <section class="l-company">
+        <section class="l-company" id="company">
             <div class="l-company-inner l-section-inner-plf--20px l-section-inner">
                 <h3 class="p-section_ttl--pb32">会社概要</h3>
                 <div class="l-company-table">
@@ -235,37 +235,36 @@
         <!----------------------------------
         contact
         ----------------------------------->
-        <section class="l-contact">
+        <section class="l-contact" id="contact">
             <div class="l-contact-inner l-section-inner-plf--20px l-section-inner">
                 <h3 class="p-section_ttl--pb32">お問い合わせ</h3>
                 <div class="p-section_ttlborder"></div>
                 <p>ご質問などがございましたら、下記の《お問い合わせフォーム》へご入力ください。</p>
                 <div class="l-form">
                     <div class="l-form-inner">
-                        <form action="" method="get" class="form-example">
+                        <form action="" method="get" class="form-example-box">
                             <div class="form-example">
-                            <label for="name">お名前</label>
-                            <input type="text" name="name" id="name" required />
+                                <label for="name" class="form_label">お名前</label>
+                                <input type="text" name="name" id="name" required class="form_input" />
                             </div>
                             <div class="form-example">
-                            <label for="email">メールアドレス</label>
-                            <input type="email" name="email" id="email" required />
+                                <label for="email"  class="form_label">メールアドレス</label>
+                                <input type="email" name="email" id="email" required class="form_input" />
                             </div>
                             <div class="form-example">
-                            <label for="tel">電話番号</label>
-                            <input type="tel" name="tel" id="tel" required />
+                                <label for="tel"  class="form_label">電話番号</label>
+                                <input type="tel" name="tel" id="tel" required class="form_input" />
                             </div>
                             <div class="form-example">
-                            <label for="email">お問い合わせ内容</label>
-                            <input type="email" name="email" id="email" required />
+                                <label for="email"  class="form_label">お問い合わせ内容</label>
+                                <input type="email" name="email" id="email" required class="form_input--freetxt"/>
                             </div>
-                            <div>
-                                <input type="checkbox" id="privacy-policy" name="privacy-policy" required> />
+                            <div class="py25">
+                                <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
                                 <label for="privacy-policy">プライバシーポリシーに同意する</label>
                             </div>
-
                             <div class="form-example">
-                            <input type="submit" value="入力内容を確認する" />
+                            <input type="submit" value="入力内容を確認する" class="btn-submit" />
                             </div>
                         </form>
                     </div>
@@ -274,13 +273,13 @@
         </section>
     </div>
 </main>
-<footer class="l-footer">
+<footer class="l-nav">
     <nav class="p-nav">
         <ul>
-            <li><a>事業案内</a></li>
-            <li><a>施工事例</a></li>
-            <li><a>会社概要</a></li>
-            <li><a>お問い合わせ</a></li>
+            <li><a href="/#service">事業案内</a></li>
+            <li><a href="/#work">施工事例</a></li>
+            <li><a href="/#company">会社概要</a></li>
+            <li><a href="/#contact">お問い合わせ</a></li>
         </ul>
     </nav>
 </footer>

@@ -4,7 +4,7 @@
 /* 共通設定
 ======================================================= */
 .l-header {
-    background-color: aqua;
+    // background-color: aqua;
     &-inner {
         display: flex;
         flex-direction: row;
@@ -14,6 +14,13 @@
         }
         &--right {
             display: flex;
+            &-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 105px;
+            }
         }
     }
 }

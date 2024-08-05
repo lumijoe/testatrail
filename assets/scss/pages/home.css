@@ -41,6 +41,21 @@ button {
   margin: 0 auto;
 }
 
+.py25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-submit {
+  height: 43px;
+  width: 179px;
+  border-radius: 60px;
+  background-color: black;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+}
+
 .l-section-inner {
   margin: 0 auto;
   box-sizing: border-box;
@@ -56,9 +71,6 @@ button {
 
 /* 共通設定
 ======================================================= */
-.l-header {
-  background-color: aqua;
-}
 .l-header-inner {
   display: flex;
   flex-direction: row;
@@ -70,6 +82,13 @@ button {
 .l-header-inner--right {
   display: flex;
 }
+.l-header-inner--right-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+}
 
 /* トップページ
 ======================================================= */
@@ -77,7 +96,6 @@ button {
   overflow: hidden;
   max-width: 100%;
   height: 600px;
-  background-color: aliceblue;
   position: relative;
 }
 .l-main-inner .l-firstview h2 {
@@ -86,26 +104,8 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.l-main-inner .l-nav {
-  width: 100%;
-  margin: 0 auto;
-  min-height: 70px;
-  background-color: aquamarine;
-}
-.l-main-inner .l-nav .p-nav {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: flex;
-  justify-content: center;
-}
-.l-main-inner .l-nav .p-nav ul {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
 .l-main-inner .l-catchcopy {
   width: 100%;
-  background-color: beige;
   height: 170px;
 }
 .l-main-inner .l-catchcopy h3 {
@@ -113,16 +113,12 @@ button {
   padding-bottom: 67px;
   text-align: center;
 }
-.l-main-inner .l-gallery-section {
-  background-color: aquamarine;
-}
 .l-main-inner .l-gallery-section-inner {
   max-width: 900px;
 }
 .l-main-inner .l-gallery-section .l-gallery {
   max-width: 860px;
   height: auto;
-  background-color: burlywood;
   display: grid;
   justify-items: stretch;
   gap: 20px;
@@ -146,7 +142,6 @@ button {
 }
 .l-main-inner .l-work-section {
   width: 100%;
-  background-color: aqua;
 }
 .l-main-inner .l-work-section-inner {
   max-width: 1100px;
@@ -164,11 +159,51 @@ button {
   display: flex;
   justify-content: flex-end;
 }
+.l-main-inner .l-work-box .card_btn-wrapper button {
+  width: 100px;
+  height: 24px;
+  background-color: black;
+}
+.l-main-inner .l-work-box .card_btn-wrapper button a {
+  color: #fff;
+}
+
+.l-nav {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 70px;
+}
+.l-nav .p-nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.l-nav .p-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+.l-nav .p-nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid #232323;
+}
+.l-nav .p-nav li:first-child {
+  padding-left: 0px;
+  border-left: none;
+}
+.l-nav .p-nav li:last-child {
+  padding-right: 0px;
+}
+.l-nav .p-nav a {
+  color: #232323;
+  letter-spacing: 0.2rem;
+}
 
 .l-cta {
   width: 100%;
   margin: 60px auto 0;
-  background-color: aquamarine;
   height: auto;
   text-align: center;
 }
@@ -185,7 +220,6 @@ button {
 .l-news {
   width: 100%;
   height: auto;
-  background-color: bisque;
 }
 .l-news-inner {
   padding-top: 60px;
@@ -228,7 +262,6 @@ button {
 .l-company {
   width: 100%;
   height: auto;
-  background-color: rgb(176, 169, 160);
 }
 .l-company-inner {
   padding-top: 60px;
@@ -272,43 +305,59 @@ button {
 .l-contact {
   width: 100%;
   height: auto;
-  background-color: rgb(176, 169, 160);
 }
 .l-contact-inner {
   padding-top: 60px;
   padding-bottom: 23px;
   text-align: center;
 }
-.l-contact-table {
+.l-contact .l-form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 600px;
 }
-.l-contact-table table {
+.l-contact .l-form-inner {
   max-width: 600px;
   padding: 0;
 }
-.l-contact-table tr {
+.l-contact .l-form .form-example-box {
+  padding-bottom: 42px;
+}
+.l-contact .l-form .form-example {
   display: flex;
   align-items: center;
-  height: 52px;
-  border-top: 1px solid #9e9e9e;
-  max-width: 600px;
+  min-height: 38px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 0;
+  padding: 10px 0 0;
 }
-.l-contact-table tr:last-child {
-  border-bottom: 1px solid #9e9e9e;
+.l-contact .l-form .form-example:first-child {
+  padding-top: 0px;
 }
-.l-contact-table tr th {
-  flex: 0 0 100px;
+.l-contact .l-form .form-example .form_label {
+  flex: 0 0 138px;
   text-align: left;
-  margin-right: 25px;
+  margin-right: 60px;
   font-weight: 300;
 }
-.l-contact-table tr td {
+.l-contact .l-form .form-example .form_input {
   flex: 1;
   text-align: left;
   text-overflow: ellipsis;
+  width: auto;
+  height: 38px;
+}
+.l-contact .l-form .form-example .form_input--freetxt {
+  height: 138px;
+  width: 100%;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #b3b3b3;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }/*# sourceMappingURL=home.css.map */
