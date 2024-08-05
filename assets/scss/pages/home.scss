@@ -165,7 +165,7 @@
             time {
                 flex: 0 0 172px;
                 text-align: left;
-                margin-right: 30px;
+                margin-right: 48px;
             }
 
             a {
@@ -177,3 +177,49 @@
     } 
 }
 
+.l-company {
+    width: 100%;
+    height: auto;
+    background-color: rgb(176, 169, 160);
+    &-inner {
+        padding-top: 60px;
+        padding-bottom: 23px;
+        text-align: center;
+    }
+    &-table {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 600px;
+        table {
+            max-width: 600px;
+            padding: 0;
+        }
+
+        tr {
+            display: flex;
+            align-items: center;
+            height: 52px;
+            border-top: 1px solid red;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;
+            &:last-child {
+                border-bottom: 1px solid red;
+            }
+
+            th {
+                flex: 0 0 100px;
+                text-align: left;
+                margin-right: 25px;
+                font-weight: 300;
+            }
+
+            td {
+                flex: 1;
+                text-align: left;
+                text-overflow: ellipsis;
+            }
+        }
+    } 
+}

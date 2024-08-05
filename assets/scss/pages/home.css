@@ -211,9 +211,53 @@ button {
 .l-news-box li time {
   flex: 0 0 172px;
   text-align: left;
-  margin-right: 30px;
+  margin-right: 48px;
 }
 .l-news-box li a {
+  flex: 1;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.l-company {
+  width: 100%;
+  height: auto;
+  background-color: rgb(176, 169, 160);
+}
+.l-company-inner {
+  padding-top: 60px;
+  padding-bottom: 23px;
+  text-align: center;
+}
+.l-company-table {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.l-company-table table {
+  max-width: 600px;
+  padding: 0;
+}
+.l-company-table tr {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  border-top: 1px solid red;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+.l-company-table tr:last-child {
+  border-bottom: 1px solid red;
+}
+.l-company-table tr th {
+  flex: 0 0 100px;
+  text-align: left;
+  margin-right: 25px;
+  font-weight: 300;
+}
+.l-company-table tr td {
   flex: 1;
   text-align: left;
   text-overflow: ellipsis;
