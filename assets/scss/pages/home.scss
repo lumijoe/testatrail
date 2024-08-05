@@ -130,36 +130,50 @@
         }
     }
 }
+
 .l-news {
     width: 100%;
     height: auto;
     background-color: bisque;
     &-inner {
         padding-top: 60px;
-        min-width: 600px;
+        padding-bottom: 23px;
         text-align: center;
     }
     &-box {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin: 0 auto;
         max-width: 600px;
+        ul {
+            max-width: 600px;
+            padding: 0;
+        }
 
         li {
+            display: flex;
+            align-items: center;
             height: 52px;
             border-top: 1px solid red;
             max-width: 600px;
             margin: 0 auto;
+            padding: 0;
+            &:last-child {
+                border-bottom: 1px solid red;
+            }
+
             time {
-                background-color: red;
+                flex: 0 0 172px;
+                text-align: left;
+                margin-right: 30px;
             }
-            span {
-            }
-            time + span {
-                padding-left: 52px;
+
+            a {
+                flex: 1;
+                text-align: left;
+                text-overflow: ellipsis;
             }
         }
-    }
-    
+    } 
 }
 

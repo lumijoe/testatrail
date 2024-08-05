@@ -183,24 +183,38 @@ button {
 }
 .l-news-inner {
   padding-top: 60px;
-  min-width: 600px;
+  padding-bottom: 23px;
   text-align: center;
 }
 .l-news-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
   max-width: 600px;
 }
+.l-news-box ul {
+  max-width: 600px;
+  padding: 0;
+}
 .l-news-box li {
+  display: flex;
+  align-items: center;
   height: 52px;
   border-top: 1px solid red;
   max-width: 600px;
   margin: 0 auto;
+  padding: 0;
+}
+.l-news-box li:last-child {
+  border-bottom: 1px solid red;
 }
 .l-news-box li time {
-  background-color: red;
+  flex: 0 0 172px;
+  text-align: left;
+  margin-right: 30px;
 }
-.l-news-box li time + span {
-  padding-left: 52px;
+.l-news-box li a {
+  flex: 1;
+  text-align: left;
+  text-overflow: ellipsis;
 }/*# sourceMappingURL=home.css.map */
