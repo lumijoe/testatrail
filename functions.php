@@ -1,4 +1,3 @@
-
 <?php
 
 /**
@@ -12,15 +11,6 @@
  * ファイルの読み込み
  ****************************/
 // 読み込ませたいファイルを追加
-
-
-// funciton.phpの動作確認
-function test()
-{
-    echo '<script>alert(\'function.phpは効いています！\')</script>';
-}
-add_action('wp_head', 'test');
-
 function add_files()
 {
     // メインのスタイルstyle.cssを読み込ませるget_stylesheet_uri()
