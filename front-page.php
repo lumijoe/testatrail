@@ -194,7 +194,8 @@
     <!----------------------------------
         contact
         ----------------------------------->
-    <section class="l-contact" id="contact">
+    <?php echo FrmFormsController::get_form_shortcode(array('id' => 3)); ?>
+    <!-- <section class="l-contact" id="contact">
         <div class="l-contact-inner l-section-inner-plf--20px l-section-inner">
             <h3 class="p-section_ttl--pb32">お問い合わせ</h3>
             <div class="p-section_ttlborder"></div>
@@ -215,8 +216,8 @@
                             <input type="tel" name="tel" id="tel" required class="form_input" />
                         </div>
                         <div class="form-example">
-                            <label for="email" class="form_label">お問い合わせ内容</label>
-                            <input type="email" name="email" id="email" required class="form_input--freetxt" />
+                            <label for="textcontent" class="form_label">お問い合わせ内容</label>
+                            <input type="text" name="textcontent" id="textcontent" required class="form_input--freetxt" />
                         </div>
                         <div class="py25">
                             <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
@@ -229,6 +230,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
 <?php get_footer(); ?>
