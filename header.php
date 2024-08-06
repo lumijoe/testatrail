@@ -19,8 +19,9 @@
     <meta name="robots" content="noindex">
     <title>test アトレイル株式会社 | test</title>
 
+    <link>
     <!-- css -->
-    <!-- <link rel="stylesheet" href="./assets/scss/pages/home.css"> -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/scss/pages/home.css">
     <!-- js -->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <!-- Font Icon -->
@@ -29,6 +30,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <!-- <link rel="shortcut icon" href="./images/favicon.ico"> -->
+
 </head>
 
 <body>

@@ -14,8 +14,8 @@
 function add_files()
 {
     // メインのスタイルstyle.cssを読み込ませるget_stylesheet_uri()
-    wp_enqueue_style('main-style', get_stylesheet_uri());
+    // wp_enqueue_style('main-style', get_stylesheet_uri());
     // 追加したファイルを呼び出す
-
+    wp_enqueue_style('main-style', get_theme_file_uri('/style.css'), array());
 }
 add_action('wp_enqueue_scripts', 'add_files');
