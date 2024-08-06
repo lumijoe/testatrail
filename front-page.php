@@ -14,6 +14,7 @@
                 <img src="./images/home/sp/img_hero_sp_compress.png" width="" height="" alt="" class="-img">
             </picture> -->
         <h2 style="color: white; text-align: center; vertical-align: middle;">（ダミー）<br>自由 な発想の建物で<br>暮らしに 自 由 を</h2>
+        <img src="https://lkcodetest.sakura.ne.jp/testatrail/images/img_hero01-1.jpg" alt="">
     </section>
     <!----------------------------------
         nav

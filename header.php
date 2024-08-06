@@ -20,9 +20,9 @@
     <title>test アトレイル株式会社 | test</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="./assets/scss/pages/home.css">
+    <!-- <link rel="stylesheet" href="./assets/scss/pages/home.css"> -->
     <!-- js -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <!-- Font Icon -->
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
     <header class="l-header">
         <div class="l-header-inner ">
             <div class="l-header-inner--left">
-                <img src="./images/logo.png" alt="" srcset="" class="p-header_logo">
+                <img src="https://lkcodetest.sakura.ne.jp/testatrail/images/logo.png" alt="" srcset="" class="p-header_logo">
                 <h1 class="p-header_name">
                     アトレイル株式会社
                 </h1>
