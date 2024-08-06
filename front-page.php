@@ -219,7 +219,7 @@
                             <label for="textcontent" class="form_label">お問い合わせ内容</label>
                             <input type="text" name="textcontent" id="textcontent" required class="form_input--freetxt" />
                         </div>
-                        <div class="py25">
+                        <div class="py25 l-flex-center">
                             <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
                             <label for="privacy-policy">プライバシーポリシーに同意する</label>
                         </div>
