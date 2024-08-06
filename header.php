@@ -18,8 +18,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <title>test アトレイル株式会社 | test</title>
-
-    <link>
     <!-- css -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/scss/pages/home.css">
     <!-- js -->
