@@ -1,1 +1,2 @@
 // script.js
+alert("ここにメッセージ");
