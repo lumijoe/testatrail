@@ -24,7 +24,7 @@
     <!-- js -->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <!-- Font Icon -->
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="https://lkcodetest.sakura.ne.jp/testatrail/wp-content/uploads/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     <header class="l-header">
         <div class="l-header-inner ">
             <div class="l-header-inner--left">
-                <img src="https://lkcodetest.sakura.ne.jp/testatrail/images/logo.png" alt="" srcset="" class="p-header_logo">
+                <img src="https://lkcodetest.sakura.ne.jp/testatrail/wp-content/uploads/images/logo.png" alt="" srcset="" class="p-header_logo">
                 <h1 class="p-header_name">
                     アトレイル株式会社
                 </h1>
