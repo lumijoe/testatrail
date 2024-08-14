@@ -74,6 +74,15 @@ button {
   padding-bottom: 32px;
 }
 
+.btn_totop {
+  width: 60px;
+  transform: rotate(180deg) !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 300;
+}
+
 /* 共通設定
 ======================================================= */
 .l-header-inner {
