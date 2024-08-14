@@ -9,7 +9,9 @@
             </ul>
         </nav>
         <div>
-            <img src="https://lkcodetest.sakura.ne.jp/testatrail/wp-content/uploads/2024/08/arrow_circle.png" alt="" srcset="" class=btn_totop>
+            <a href="https://lkcodetest.sakura.ne.jp/testatrail/">
+                <img src="https://lkcodetest.sakura.ne.jp/testatrail/wp-content/uploads/2024/08/arrow_circle.png" alt="" srcset="" class=btn_totop>
+            </a>
         </div>
     </footer>
     <!-- script -->

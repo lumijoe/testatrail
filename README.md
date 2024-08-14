@@ -96,3 +96,12 @@ function add_page_slug_class_name($classes)
   }
   return $classes;
 }
+
+/*****************************
+ * ファイルの読み込み
+ ****************************/
+// ヘッダー・フッターのカスタムメニュー化
+register_nav_menus(array(
+    'place_global' => 'グローバル',
+    'place_footer' => 'フッターナビ'
+));
